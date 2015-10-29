@@ -1,1 +1,33 @@
-body{background-color:blue}
+body{background-color:#white}
+.title {
+
+background-color: blue;
+padding: 30px;
+margin: auto;
+width: 100%;
+text-align: center;
+}
+.button {
+float: right;
+height:10%;
+width:22%;
+text-align: center;
+background-color: #33ccff;
+position: relative;
+}
+.sidebar {
+background-color:#33ccff;
+width:10%;
+height:10%;
+position: relative;
+align:left;
+border:10px solid #33ccff;
+}
+.sidebar3 {
+background-color:#33ccff;
+width:10%;
+height:100%;
+position: relative;
+align:left;
+border: 10px solid #33ccff;
+}
