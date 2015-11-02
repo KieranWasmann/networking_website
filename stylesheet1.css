@@ -1,6 +1,33 @@
+/*CSS mobile first*/
+
+/* Default Mobile*/
+body {
+background-color:#787878;
+} 
+.title {
+background-color: #ffff99;
+padding: 1em;
+text-align: center;
+color:#000066;
+}
+.text {
+background-color:#000066;
+color:#ffff99;
+width: 90%;
+margin: auto;
+padding: 1em;
+margin-top: 1em;
+}
+
+/*CSS screen>450px*/
+
+@media (min-width: 450px) {
+body{
+background-color: white;
+}
+/*
 body{background-color:#white}
 .title {
-
 background-color: blue;
 padding: 30px;
 margin: auto;
@@ -30,4 +57,13 @@ height:100%;
 position: relative;
 align:left;
 border: 10px solid #33ccff;
+}
+.text {
+position: relative;
+float: right;
+margin: 5%;
+background-color:#cccccc;
+width: 80%;
+}
+*/
 }
